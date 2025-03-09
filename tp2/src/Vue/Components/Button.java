@@ -15,8 +15,14 @@ public class Button extends JButton implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         String But_name = this.getText();
-        if (e.getSource() == this){
-            System.out.println(this.getText());
+        if (But_name == "Ajouter"){
+            System.out.println("Ajouter");
+        }else if(But_name == "Recherche"){
+            System.out.println("Recherche");
+        } else if (But_name == "Modifyer") {
+            System.out.println("modif");
+        }else if (But_name == "Delete") {
+            System.out.println("delte");
         }
 
     }
