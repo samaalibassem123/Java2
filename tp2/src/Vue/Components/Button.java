@@ -8,7 +8,9 @@ import java.awt.event.ActionListener;
 public class Button extends JButton implements ActionListener{
     public Button(String text) {
         super(text);
-        this.setBackground(Color.getHSBColor(207, 100, 50));
+        this.setForeground(Color.RED);
+        this.setBackground(Color.gray);
+        this.setOpaque(true);
         this.addActionListener(this);
     }
 

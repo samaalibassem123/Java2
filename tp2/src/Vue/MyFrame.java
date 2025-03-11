@@ -16,6 +16,9 @@ public class MyFrame extends JFrame{
         this.setSize(500,500);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout(FlowLayout.CENTER));
+
+
+
         //ADD BUTTONS
         JButton Add_but = new Button("Ajouter");
         JButton Find_but = new Button("Recherche");;
