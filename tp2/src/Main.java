@@ -1,3 +1,4 @@
+import Vue.Home;
 import Vue.MyFrame;
 
 import javax.swing.*;
@@ -6,6 +7,6 @@ import javax.swing.*;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        JFrame window = new MyFrame();
+        Home window = new Home();
     }
 }
